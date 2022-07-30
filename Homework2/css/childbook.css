@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(206, 245, 133);
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+
+h1{
+    background-color: rgb(250, 246, 6);
+
+}
+
+.childbook{
+    background-color: rgb(151, 252, 252);
+    border: 1px solid black;
+}
+
+
+
+p{
+    background-color: rgb(255, 243, 133);
+    width: 300px;
+    margin: 10px auto;
+    
+}
+
