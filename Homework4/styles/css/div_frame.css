@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Oswald-Regular";
+    src: url("../fonts/Oswald/static/Oswald-Regular.ttf");
+}
+
+.text{
+    font-family: "Oswald-Regular", "Arial", "sans-serif";
+    padding: 50px 100px;
+    font-size: 25px;
+    text-align: center;
+   
+}
+
+.paragraph1:hover{
+    font-size: 27px;
+    color: rgb(0, 0, 153);
+    background-color: rgb(132, 255, 255);
+    border-radius: 20px;
+    transition: 1s;
+
+}
+
+.paragraph2:hover{
+    font-size: 27px;
+    color: rgb(129, 0, 250);
+    background-color: rgb(247, 211, 112);
+    border-radius: 20px;
+    transition: 1s;
+
+}
+
+.paragraph3:hover{
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: 1s;
+    
+}
+
+.beryllium:hover{
+    font-size: 52px;
+    text-decoration: underline;
+    background-color: rgb(162, 247, 93);
+    border-radius: 70px;
+    transition: 1s;
+    
+}
+
+.img{
+    border-radius: 10px;
+
+}
+
+.img:hover{
+    width: 200px;
+    transition: 1s;
+    
+}
