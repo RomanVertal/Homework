@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: rgb(228, 227, 227);
+}
+table{
+    margin: auto;
+}
+
+th{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+td{
+    
+    border: 3px solid rgb(58, 58, 58);
+    width: 70px;
+    height: 70px;
+}
+.black{
+    background-color: rgb(58, 58, 58);
+}
+.white{
+    background-color: white;
+}
+
+
+.black th{
+    background-color: rgb(58, 58, 58);                                        
+    border: 3px solid rgb(58, 58, 58);
+
+}
+.white th{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+tr .black {
+    border: 3px solid rgb(58, 58, 58);
+    
+}
+
+img{
+    
+    width: 60%;
+    height: 60%;
+    
+}
