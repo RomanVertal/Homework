@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.stars{
+    width: 376px;
+    height: 80px;
+    border: 1px solid red;
+    background: url(../images/star0.png);
+    background-repeat: repeat-x;
+    direction: rtl;
+    text-align: left;
+    margin: auto;
+}
+
+img{
+    margin-right: -5px;
+    opacity: 0;
+}
+
+img:hover{
+    opacity: 1;
+}
+img:hover~img{
+    opacity: 1;
+}
+
