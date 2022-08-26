@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Oswald-Regular" ;
+    src: url(../fonts/Oswald/static/Oswald-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0px;    
+          
+}
+
+.wrapper{    
+    font-family: "Oswald-Regular", Tahoma, sans-serif;
+    border: 1px solid #31499C;
+    background: linear-gradient(to bottom , #56319c, #686bff, #9e97ff) ;
+}
+
+
+.text_center{
+    text-align: center;
+}
+
+.white_font{
+    color: white;
+}
+
+.orange_font{
+    color: #ff5100;
+}
+
+.header{
+    text-align: center;
+}
+
+.header img{
+    width: 10vw;
+}
+
+.header_menu{
+    
+    background: linear-gradient(to right, #e7422c, #FFB745);
+    text-align: center;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.header_menu a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+      
+}
+
+.header_menu a:hover{
+    background-color: rgb(153, 97, 226);
+    color: white;
+}
+
+
+.content{
+    display: flex;
+    
+}
+
+.content_left{
+    width: 20%;
+    text-align: center;
+   
+}
+
+.content_center{
+    width: 60%;
+    background-color: rgb(233, 233, 233);
+    
+}
+
+.content_center p {
+    font-size: 20px;
+    margin: 10px 40px;
+    text-align: justify;
+}
+
+
+.content_right{
+    width: 20%;
+    text-align: center;
+    
+}
+
+.name_photo{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 10px auto ;
+
+}
+
+.hr_style{
+    width: 15vw;
+    margin-bottom: 40px;
+    border: 2px solid rgb(255, 102, 0);
+    border-radius: 20px;
+
+}
+
+.img_style{
+    border: 4px solid rgba(255, 81, 0, 0.7);
+}
+
+.img_style:hover{
+    width: 77%;
+    border: 4px solid rgba(255, 81, 0, 1);
+}
+
+
+.footer{
+    height: 200px;
+
+}
+
+.footer_text{
+    text-align: center;
+    color: rgb(63, 63, 63);
+    text-decoration: overline;
+    padding-top: 150px;
+          
+}
+
+
+@media screen  and (max-width:600px){
+
+    .header h1, .header p{
+        display: none;
+    }
+
+    .header img{
+        margin-top: 25px;
+        width: 40vw;
+    }
+   
+    .header_menu a{
+        display: block;
+        border: 1px solid #56319c;
+        border-radius: 10px;
+        
+        margin: 10px auto;
+        width: 60vw;
+        
+    }
+    .content{
+        flex-direction: column;
+              
+    }
+
+    .content_left{
+        order: 2;
+        width: 100%;
+    }
+    .content_center{
+        order: 1;
+        width: 100%;
+    }
+    .content_center img{
+        width: 35%;
+    }
+    .content_right{
+        order: 3;
+        width: 100%;
+    }
+    
+}
+
+
