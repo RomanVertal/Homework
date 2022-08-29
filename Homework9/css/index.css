@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left, rgb(219, 74, 255), rgb(155, 68, 255));
+       
+}
+.registration_form{
+    border: 1px solid rgb(160, 0, 255);
+    border-radius: 40px;
+    width: 800px;
+    height: 1000px;
+    background-color: rgb(159, 42, 255);
+    margin: auto;
+    text-align: center;
+    
+}
+
+.name_form{
+    display: flex;
+    
+    width: 300px;
+    margin: auto;
+}
+.name_form_label{
+    
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+    
+}
+.name_form_input{
+   
+    width: 200px;
+    text-align: left;
+}
+
+input{
+    cursor: pointer;
+    
+}
+
+div{
+    margin-top: 20px;
+}
+
+input::placeholder{
+    color: blueviolet;
+}
+.name_form_input input{
+    margin-bottom: 15px;
+}
+
+input:checked + label{
+    color: aliceblue;
+}
+
+.name_form input{
+    border: 2px solid rgb(190, 123, 253);
+    border-radius: 5px;
+}
+.name_form input:focus{
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 0 0 3px rgb(255, 255, 255);
+}
+
+.button input{
+    height: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(132, 0, 255);
+    color: aliceblue;
+}
+
+.button input:focus{
+    border: 2px solid rgb(132, 0, 255);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(132, 0, 255);
+}
