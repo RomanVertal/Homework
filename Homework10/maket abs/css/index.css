@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(255, 211, 117);
+}
+.images{
+    margin: auto;
+    position: relative;    
+    width: 400px;
+    height: 400px;
+}
+
+.img1{
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;    
+}
+
+.img2{
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    
+}
+
+.img3{
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    
+}
+
+.img4{
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    left: 95px;
+    
+}
+
+.img1:hover{
+    z-index: 1;
+    width: 250px;
+    top: 70px;
+    left: 70px;
+    transition: 1s;
+}
+
+.img1:hover~img:nth-of-type(4){
+    z-index: 0;
+    width: 200px;
+    top: 0px;
+    left: 0px;
+    transition: 1s;
+
+}
+
+.img2:hover{
+    z-index: 1;
+    width: 250px;
+    top: 70px;
+    left: 70px;
+    transition: 1s;
+}
+
+.img2:hover~img:nth-of-type(4){
+    z-index: 0;
+    width: 200px;
+    top: 0px;
+    left: 190px;
+    transition: 1s;
+
+}
+
+.img3:hover{
+    z-index: 1;
+    width: 250px;
+    top: 70px;
+    left: 70px;
+    transition: 1s;
+}
+
+.img3:hover~img:nth-of-type(4){
+    z-index: 0;
+    width: 200px;
+    top: 200px;
+    left: 100px;
+    transition: 1s;
+
+}
+
+.img4:hover{
+    z-index: 1;
+    width: 220px;
+}
